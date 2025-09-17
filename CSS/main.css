@@ -1,20 +1,14 @@
-#container>picture{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 395px;
-}
-
-#container>picture>img{
+img{
     width: 230px;
     height: 310px;
-    border-radius: 40px;
-    box-shadow: 0px 0px 20px rgb(51, 51, 51);
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px rgb(99, 99, 99);
     cursor: pointer;
     transition-duration: 0.5s;
+    margin-bottom: 20px;
 }
 
-#container>picture>img:hover{
+img:hover{
     box-shadow: 0px 0px 20px rgb(126, 182, 255);
 }
 
@@ -51,4 +45,18 @@
 #sobre>p{
     text-align: justify;
     font-size: 18px;
+}
+
+#container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container2>div{
+    width: 200px;
+    margin: 10px;
+    border: solid 6px white;
+    font-size: 20px;
+    padding: 10px;
 }
