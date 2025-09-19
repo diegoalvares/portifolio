@@ -2,25 +2,29 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 20px 10px 0px;
-    background-color: rgb(71, 71, 71);
-    font-size: 20px;
+    padding: 20px 20px 0px 0px;
+    background-color: rgb(75, 75, 75);
     margin-bottom: 30px;
 }
-
 header>nav>ul{
     display: flex;
     list-style: none;
-    margin-left: -60px;
+    margin-left: -8px;
     text-shadow: 0px 0px 5px black;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 header>nav>ul>li{
-    margin-left: 30px;
     transition-duration: 0.5s;
     cursor: pointer;
+    margin-right: 20px;
+    border: solid 3px white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    
 }
 
 header>nav>ul>li:hover{
-    color: rgb(255, 255, 92);
+    background-color: rgb(255, 255, 92);
 }
