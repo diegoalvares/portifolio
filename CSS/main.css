@@ -9,7 +9,7 @@ img{
 }
 
 img:hover{
-    box-shadow: 0px 0px 20px rgb(126, 182, 255);
+    box-shadow: 0px 0px 20px rgb(255, 255, 92);
 }
 
 #container{
@@ -26,6 +26,9 @@ img:hover{
 
 #container>p>strong{
     color: rgb(255, 255, 92);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px black;
 }
 
 #container>p>strong:hover{
@@ -38,22 +41,46 @@ img:hover{
     border: solid 6px white;
     border-radius: 20px;
     margin: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #sobre>h1{
     text-align: center;
     color: rgb(255, 255, 92);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px black;
 }
+
+#sobre>h1:hover{
+    text-align: center;
+    color: rgb(126, 182, 255);
+}
+
 
 #sobre>p{
     text-align: justify;
     font-size: 18px;
+    text-shadow: 0px 0px 5px black;
 }
 
 #container2{
     margin-bottom: 30px;
     text-align: center;
+}
+
+#habilidades{
+    color: rgb(255, 255, 92);
+    transition-duration: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 0px 0px 5px black;
+}
+
+#habilidades:hover{
+    color: rgb(126, 182, 255);
 }
 
 #container3, #container4{
@@ -64,16 +91,22 @@ img:hover{
     text-align: center;
 }
 
-#container4{
-    margin-top: 50px;
-}
-
 #container3>.row>.col>strong{
     border: solid 4px white;
     font-size: 20px;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
+    transition-duration: 0.5s;
+    text-shadow: 2px 2px 5px rgb(41, 41, 41);
+}
+
+#container3>.row>.col>strong:hover{
+    background-color: rgb(255, 255, 92);
+}
+
+#container4{
+    margin-top: 50px;
 }
 
 #container4>.row>.col>strong{
@@ -82,5 +115,10 @@ img:hover{
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
+    transition-duration: 0.5s;
+    text-shadow: 2px 2px 2px rgb(41, 41, 41);
 }
 
+#container4>.row>.col>strong:hover{
+    background-color: rgb(255, 255, 92);
+}
