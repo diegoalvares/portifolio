@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 10px 0px;
+    background-color: rgb(71, 71, 71);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+header>nav>ul{
+    display: flex;
+    list-style: none;
+    margin-left: -60px;
+}
+
+header>nav>ul>li{
+    margin-left: 30px;
+}

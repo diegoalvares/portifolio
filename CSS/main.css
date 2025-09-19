@@ -5,11 +5,15 @@ img{
     box-shadow: 0px 0px 20px rgb(99, 99, 99);
     cursor: pointer;
     transition-duration: 0.5s;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 img:hover{
     box-shadow: 0px 0px 20px rgb(126, 182, 255);
+}
+
+#container{
+    margin-bottom: 30px;
 }
 
 
@@ -34,7 +38,7 @@ img:hover{
     border: solid 6px white;
     border-radius: 20px;
     margin: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #sobre>h1{
@@ -48,15 +52,35 @@ img:hover{
 }
 
 #container2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#container3, #container4{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-#container2>div{
-    width: 200px;
-    margin: 10px;
-    border: solid 6px white;
+#container4{
+    margin-top: 50px;
+}
+
+#container3>.row>.col>strong{
+    border: solid 4px white;
     font-size: 20px;
     padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
+
+#container4>.row>.col>strong{
+    border: solid 4px white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
