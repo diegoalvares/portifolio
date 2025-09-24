@@ -5,7 +5,7 @@ img{
     box-shadow: 0px 0px 20px rgb(99, 99, 99);
     cursor: pointer;
     transition-duration: 0.5s;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 img:hover{
@@ -18,10 +18,10 @@ img:hover{
 
 
 #apresentacao{
-    width: 395px;
     font-size: 20px;
     text-align: center;
     text-shadow: 0px 2px 2px black;
+    padding: 10px;
 }
 
 #container>p>strong{
@@ -38,11 +38,11 @@ img:hover{
 #sobre{
     padding: 20px;
     text-shadow: 0px 2px 2px black;
-    border: solid 4px white;
+    border: solid 1px rgb(158, 158, 158);
     border-radius: 10px;
-    margin: 10px;
     margin-bottom: 30px;
     text-align: center;
+    margin: 10px;
 }
 
 #sobre>.row>.col>p{
@@ -70,8 +70,8 @@ img:hover{
 }
 
 #container2{
-    margin-bottom: 30px;
     text-align: center;
+    margin: 15px;
 }
 
 #habilidades{
@@ -92,6 +92,7 @@ img:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
 }

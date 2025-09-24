@@ -1,0 +1,9 @@
+footer{
+    text-align: center;
+}
+
+#redes>ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
