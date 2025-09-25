@@ -53,15 +53,21 @@ img:hover{
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     cursor: pointer;
     background: rgb(253, 216, 48);
-    border-radius: 10px;
-    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    padding: 7px 0px 7px 15px;
     transition-duration: 0.5s;
+    text-decoration: none;
 }
 
 #bt_cv:hover{
-    background: linear-gradient(to bottom, rgb(126, 182, 255) 35%, rgb(8, 161, 167));
+    background: rgb(84, 148, 231);
 }
 
+#seta{
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+}
 #sobre{
     padding: 20px;
     text-shadow: 0px 2px 2px black;
