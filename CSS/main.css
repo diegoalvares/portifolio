@@ -1,3 +1,7 @@
+main{
+    margin-top: 60px;
+}
+
 img{
     width: 230px;
     height: 310px;
@@ -42,6 +46,22 @@ img:hover{
     margin-bottom: 30px;
 }
 
+#bt_cv{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    cursor: pointer;
+    background: rgb(253, 216, 48);
+    border-radius: 10px;
+    padding: 7px 15px 7px 15px;
+    transition-duration: 0.5s;
+}
+
+#bt_cv:hover{
+    background: linear-gradient(to bottom, rgb(126, 182, 255) 35%, rgb(8, 161, 167));
+}
+
 #sobre{
     padding: 20px;
     text-shadow: 0px 2px 2px black;
@@ -60,7 +80,7 @@ img:hover{
     color: rgb(255, 255, 92);
     transition-duration: 0.5s;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;   
     text-shadow: 0px 0px 5px black;
 }
@@ -77,8 +97,8 @@ img:hover{
 }
 
 #linha_sobre{
-    border: solid 2px aqua;
-    width: 215px;
+    border: solid 1px rgb(248, 242, 242);
+    width: 165px;
     margin-top: 0px;
 }
 
@@ -92,7 +112,7 @@ img:hover{
     transition-duration: 0.5s;
     text-align: center;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     text-shadow: 0px 0px 5px black;
 }
@@ -102,8 +122,8 @@ img:hover{
 }
 
 #linha_hab{
-    border: solid 2px aqua;
-    width: 245px;
+    border: solid 1px rgb(248, 242, 242);
+    width: 188px;
     margin-top: 0px;
 }
 
@@ -146,4 +166,19 @@ img:hover{
 
 #container4>.row>.col>strong:hover{
     background-color: rgb(255, 255, 92);
+}
+
+#redes{
+    margin-top: 30px;
+}
+
+#redes>.row>.col{
+    margin-bottom: 50px;
+}
+
+#redes>.row>.col>a{
+    border: solid 4px white;
+    cursor: pointer;
+    padding: 10px;
+    color: aliceblue;
 }

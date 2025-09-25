@@ -1,5 +1,7 @@
 header{
-    margin-bottom: 20px;
+    position: fixed;
+    background-image: linear-gradient(to bottom, rgb(49, 49, 49) 75%, rgb(34, 34, 34));
+    margin-top: -60px;
 }
 
 header>nav{
