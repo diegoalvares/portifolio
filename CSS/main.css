@@ -17,6 +17,7 @@ img:hover{
 }
 
 #container{
+    margin: 15px;
     margin-bottom: 10px;
 }
 
@@ -65,11 +66,14 @@ img:hover{
 #sobre{
     padding: 20px;
     text-shadow: 0px 2px 2px black;
-    border: solid 1px rgb(158, 158, 158);
+    border: solid 1px rgb(128, 128, 128);
     border-radius: 10px;
     margin-bottom: 30px;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(68, 68, 68);
+
 }
 
 #sobre>.row>.col>p{
@@ -90,7 +94,8 @@ img:hover{
 }
 
 
-#sobre>p{
+#paragrafo_sobre{
+    margin-top: 20px;
     text-align: justify;
     font-size: 18px;
     text-shadow: 0px 0px 5px black;
@@ -103,8 +108,16 @@ img:hover{
 }
 
 #container2{
+    margin: 15px;
+    background-color: rgb(68, 68, 68);
+    border: solid 1px rgb(128, 128, 128);
+    padding: 20px;
+}
+
+#container2>.row>.col{
     text-align: center;
     margin: 15px;
+    background-color: rgb(68, 68, 68);
 }
 
 #habilidades{
@@ -117,6 +130,13 @@ img:hover{
     text-shadow: 0px 0px 5px black;
 }
 
+
+.linha_hab>.col{
+    border: solid 4px white;
+    padding: 10px;
+}
+
+
 #habilidades:hover{
     color: rgb(126, 182, 255);
 }
@@ -125,47 +145,6 @@ img:hover{
     border: solid 1px rgb(248, 242, 242);
     width: 188px;
     margin-top: 0px;
-}
-
-#container3, #container4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-#container3>.row>.col>strong{
-    border: solid 4px white;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition-duration: 0.5s;
-    text-shadow: 2px 2px 5px rgb(41, 41, 41);
-}
-
-#container3>.row>.col>strong:hover{
-    background-color: rgb(255, 255, 92);
-}
-
-#container4{
-    margin-top: 50px;
-}
-
-#container4>.row>.col>strong{
-    border: solid 4px white;
-    border-radius: 10px;
-    font-size: 20px;
-    padding: 10px;
-    cursor: pointer;
-    transition-duration: 0.5s;
-    text-shadow: 2px 2px 2px rgb(41, 41, 41);
-}
-
-#container4>.row>.col>strong:hover{
-    background-color: rgb(255, 255, 92);
 }
 
 #redes{
