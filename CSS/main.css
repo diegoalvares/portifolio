@@ -26,7 +26,6 @@ img:hover{
     font-size: 20px;
     text-align: center;
     text-shadow: 0px 2px 2px black;
-    padding: 10px;
 }
 
 #container>p>strong{
@@ -67,12 +66,13 @@ img:hover{
     padding: 20px;
     text-shadow: 0px 2px 2px black;
     border: solid 1px rgb(128, 128, 128);
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 30px;
     text-align: center;
     margin: 15px;
     margin-bottom: 30px;
     background-color: rgb(68, 68, 68);
+    box-shadow: 0px 0px 10px black;
 
 }
 
@@ -112,6 +112,8 @@ img:hover{
     background-color: rgb(68, 68, 68);
     border: solid 1px rgb(128, 128, 128);
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
 }
 
 #container2>.row>.col{
