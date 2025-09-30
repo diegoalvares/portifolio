@@ -2,7 +2,7 @@ main{
     margin-top: 60px;
 }
 
-img{
+#foto{
     width: 230px;
     height: 310px;
     border-radius: 100%;
@@ -12,7 +12,7 @@ img{
     margin-bottom: 20px;
 }
 
-img:hover{
+#foto:hover{
     box-shadow: 0px 0px 20px rgb(255, 255, 92);
 }
 
@@ -175,4 +175,33 @@ img:hover{
     cursor: pointer;
     padding: 10px;
     color: aliceblue;
+}
+
+#cr_login{
+    width: 320px;
+    height: 300px;
+    margin-left: 46px;
+}
+
+#conversor{
+    width: 320px;
+    height: 300px;
+    margin-left: 46px;
+}
+
+#container3{
+    text-align: center;
+}
+
+#projetos{
+    color: rgb(255, 255, 92);
+    font-size: 30px;
+    font-weight: 500;   
+    text-shadow: 0px 0px 5px black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#projetos:hover{
+    color: rgb(126, 182, 255);
 }
