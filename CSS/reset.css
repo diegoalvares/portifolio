@@ -1,5 +1,6 @@
 *{
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 body{
