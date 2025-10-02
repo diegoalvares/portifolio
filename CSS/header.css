@@ -25,12 +25,17 @@ header>nav>ul{
     font-weight: 500;
 }
 
-header>nav>ul>li{
+header>nav>ul>li>a{
+    color: aliceblue;
     transition-duration: 0.5s;
     cursor: pointer;
     margin-right: 18px;
+    text-decoration: none;
 }
 
-header>nav>ul>li:hover{
+header>nav>ul>li>a:hover{
     background-color: rgb(255, 255, 92);
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
 }
