@@ -162,21 +162,6 @@ main{
     background-color: rgb(255, 255, 92);
 }
 
-#redes{
-    margin-top: 30px;
-}
-
-#redes>.row>.col{
-    margin-bottom: 50px;
-}
-
-#redes>.row>.col>a{
-    border: solid 4px white;
-    cursor: pointer;
-    padding: 10px;
-    color: aliceblue;
-}
-
 #cr_login{
     width: 320px;
     height: 300px;
