@@ -76,4 +76,19 @@
         margin-left: 348px;
     }
 
+    #instagram{
+        margin-left: 15.5vw;
+    }
+
+    #face{
+        margin-right: 26vw;
+    }
+
+    #linkedin{
+        margin-left: 24vw;
+    }
+
+    #git{
+        margin-right: 17vw;
+    }
 }

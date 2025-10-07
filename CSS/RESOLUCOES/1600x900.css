@@ -1,3 +1,112 @@
 @media screen and (min-width: 1600px){    
+    header{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    header>nav>ul{
+        font-size: 25px;
+    }
+
+    header>nav>ul>li{
+        margin-right: 40px;
+        margin-left: 20px;
+        margin-top: -6px;
+    }
+
+    #foto{
+        width: 400px;
+        height: 500px;
+    }
+
+    #foto:hover{
+        width: 450px;
+        height: 580px;
+    }
+
+    #container>p {
+        font-size: 30px;
+    }
+
+    #sobre>.row>.col>p{
+        font-size: 30px;
+    }
+
+    #sobre_mim{
+        font-size: 40px;
+    }
+
+    #linha_sobre{
+        width: 220px;
+    }
+
+    #habilidades{
+        font-size: 40px;
+    }
+
+    #linha_hab{
+        width: 250px;
+    }
+
+    .linha_hab2{
+       font-size: 25px;
+    }
     
+    #container2>.row>.linha_hab2:hover{
+        font-size: 30px;
+    }
+
+    #cr_login, #conversor{
+        width: 500px;
+        height: 430px;
+        margin-left: 550px;
+    }
+
+    #projetos{
+        font-size: 40px;
+    }
+
+    #linha_proj{
+        margin-left: 558px;
+        width: 185px;
+    }
+
+    #instagram{
+        margin-left: 25vw;
+    }
+
+    #face{
+        margin-right: 35vw;
+    }
+
+    #linkedin{
+        margin-left: 34vw;
+    }
+
+    #git{
+        margin-right: 31vw;
+    }
+
+    #container, #sobre, #container2, #carrossel{
+        margin-bottom: 60px;
+    }
+
+    #bt_cv, #seta{
+        font-size: 30px;
+    }
+
+    #container>p{
+        margin-bottom: 30px;
+    }
+
+    #redes>.row>.col{
+        margin-bottom: 80px;
+    }
+
+    #rodape{
+        font-size: 20px;
+    }
+
+     #cont{
+        font-size: 45px;
+    }
 }

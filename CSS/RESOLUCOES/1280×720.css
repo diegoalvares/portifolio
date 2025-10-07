@@ -42,4 +42,20 @@
     #cr_login, #conversor{
         margin-left: 405px;
     }
+
+    #instagram{
+        margin-left: 20vw;
+    }
+
+    #face{
+        margin-right: 31vw;
+    }
+
+    #linkedin{
+        margin-left: 28vw;
+    }
+
+    #git{
+        margin-right: 21.5vw;
+    }
 }

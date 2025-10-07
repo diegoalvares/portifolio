@@ -67,6 +67,7 @@ main{
     border-radius: 5px;
     font-size: 25px;
 }
+
 #sobre{
     padding: 20px;
     text-shadow: 0px 2px 2px black;
@@ -110,6 +111,7 @@ main{
     border: solid 1px rgb(248, 242, 242);
     width: 165px;
     margin-top: 0px;
+    border-image: linear-gradient(to left, rgb(211, 211, 211),rgb(255, 255, 92)) 1;
 }
 
 #container2{
@@ -145,6 +147,7 @@ main{
     border: solid 1px rgb(248, 242, 242);
     width: 188px;
     margin-top: 0px;
+    border-image: linear-gradient(to left, rgb(211, 211, 211),rgb(255, 255, 92)) 1;
 }
 
 
@@ -199,6 +202,7 @@ main{
     width: 140px;
     margin-top: 0px;
     margin-left: 135px;
+    border-image: linear-gradient(to left, rgb(211, 211, 211),rgb(255, 255, 92)) 1;
 }
 
 #carrossel{

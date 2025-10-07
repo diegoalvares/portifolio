@@ -1,3 +1,26 @@
-@media screen and (min-width: 1366px){
-    
+@media screen and (min-width: 1366px){    
+    #linha_proj{
+        margin-left: 482px;
+    }
+
+    #cr_login, #conversor{
+        margin-left: 440px;
+    }
+
+    #instagram{
+        margin-left: 25vw;
+    }
+
+    #face{
+        margin-right: 30vw;
+        margin-left: -5vw;
+    }
+
+    #linkedin{
+        margin-left: 33vw;
+    }
+
+    #git{
+        margin-right: 26vw;
+    }
 }
