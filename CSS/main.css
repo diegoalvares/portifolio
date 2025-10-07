@@ -5,15 +5,14 @@ main{
 #foto{
     width: 230px;
     height: 310px;
-    border-radius: 100%;
-    box-shadow: 0px 0px 20px rgb(99, 99, 99);
     cursor: pointer;
     transition-duration: 0.5s;
     margin-bottom: 20px;
 }
 
 #foto:hover{
-    box-shadow: 0px 0px 20px rgb(255, 255, 92);
+    width: 260px;
+    height: 350px;
 }
 
 #container{
