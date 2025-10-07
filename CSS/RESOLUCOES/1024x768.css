@@ -1,3 +1,79 @@
 @media screen and (min-width: 1024px){   
+    header{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    header>nav>ul{
+        font-size: 20px;
+    }
+
+    header>nav>ul>li{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: -3px;
+    }
+
+    #container{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    #container>p {
+        font-size: 21.5px;
+    }
+
+    #sobre{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    #sobre>.row>.col>p{
+        font-size: 21.5px;
+    }
+
+    #sobre_mim{
+        font-size: 32px;
+    }
+
+    #linha_sobre{
+        width: 175px;
+    }
+
+    #container2{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    #habilidades{
+        font-size: 31px;
+    }
+
+    #linha_hab{
+        width: 191px;
+    }
+
+    .linha_hab2{
+       font-size: 20px;
+    }
     
+    #container3{
+        width: 80vw;
+        margin-left: 10vw;
+
+    }
+
+    #cr_login, #conversor{
+        width: 500px;
+        height: 430px;
+        margin-left: 270px;
+    }
+
+    #projetos{
+        font-size: 32px;
+    }
+
+    #linha_proj{
+        margin-left: 348px;
+    }
+
 }

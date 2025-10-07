@@ -1,3 +1,45 @@
 @media screen and (min-width: 1280px){
+    header>nav>ul{
+        font-size: 22px;
+    }
+
+    header>nav>ul>li{
+        margin-right: 20px;
+        margin-left: 30px;
+        margin-top: -5px;
+    }
+
+    #foto{
+        width: 285px;
+        height: 370px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        margin-bottom: 20px;
+    }
+
+    #foto:hover{
+        width: 305px;
+        height: 400px;
+    }
+
+    #container>p {
+        font-size: 25px;
+    }
+
+    .linha_hab2{
+       font-size: 22px;
+    }
+
+    #container2>.row>.linha_hab2:hover{
+        font-size: 25px;
+    }
     
+    #linha_proj{
+        margin-left: 448px;
+        width: 148px;
+    }
+
+    #cr_login, #conversor{
+        margin-left: 405px;
+    }
 }
