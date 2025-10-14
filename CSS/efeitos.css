@@ -1,0 +1,37 @@
+#sobre{
+    animation: aparecer 1.5s steps(60);
+}
+
+#container2{
+    animation: aparecer2 1.5s steps(60);
+}
+
+#container{
+    animation: aparecer2 1.5s steps(60);
+}
+
+#container3, #carrossel, footer{
+    animation: aparecer3 2s steps(60);
+}
+
+
+@keyframes aparecer {
+    0%, 20%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+}
+
+@keyframes aparecer2 {
+    0%, 20%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+}
+
+@keyframes aparecer3 {
+    0%, 40%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
