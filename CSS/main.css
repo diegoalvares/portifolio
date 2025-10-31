@@ -208,3 +208,12 @@ main{
 #carrossel{
     margin-bottom: 30px;
 }
+
+
+#carrossel{
+    padding-bottom: 60px;
+}
+
+#carrossel>ol>li{
+    padding-bottom: 3px;
+}
