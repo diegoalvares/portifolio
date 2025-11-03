@@ -1,0 +1,25 @@
+form{
+    width: 350px;
+    margin: auto;
+    box-shadow: rgb(119, 119, 119) 0px 0px 10px;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+form>input, form>textarea, form>button{
+    border-radius: 10px;
+    padding: 7px;
+    width: 290px;
+    font-size: 20px;
+}
+
+form>input::placeholder, form>textarea::placeholder{
+    color: rgb(160, 160, 160);
+}
+
+form>button{
+    background: rgb(253, 216, 48);
+    color: aliceblue;
+    text-align: center;
+    text-shadow: black 0px 0px 5px
+}
