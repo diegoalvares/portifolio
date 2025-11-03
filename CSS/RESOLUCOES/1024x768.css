@@ -91,4 +91,13 @@
     #git{
         margin-right: 17vw;
     }
+
+    form{
+        width: 450px;
+    }
+
+    form>input, form>textarea, form>button{
+        width: 350px;
+        font-size: 22px;
+    }
 }

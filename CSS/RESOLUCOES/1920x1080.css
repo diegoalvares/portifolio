@@ -37,4 +37,13 @@
         width: 700px;
         height: 600px;
     }
+
+    form{
+        width: 550px;
+    }
+
+    form>input, form>textarea, form>button{
+        width: 450px;
+        font-size: 25px;
+    }
 }

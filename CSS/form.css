@@ -21,5 +21,6 @@ form>button{
     background: rgb(253, 216, 48);
     color: aliceblue;
     text-align: center;
-    text-shadow: black 0px 0px 5px
+    text-shadow: black 1px 0px 5px;
+    cursor: pointer;
 }
